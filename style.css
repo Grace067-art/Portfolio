@@ -16,7 +16,7 @@ body {
 /* Header */
 header {
     background: #222;
-    color: #fff;
+    color:  rgb(0, 250, 156);
     padding: 2rem 1rem;
     text-align: center;
 }
@@ -57,6 +57,6 @@ footer {
     text-align: center;
     padding: 1rem;
     background: #222;
-    color: #fff;
+    color:  rgb(0, 250, 156);
     margin-top: 2rem;
 }

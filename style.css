@@ -8,15 +8,15 @@
 
 /* Body */
 body {
-    background-color: colour: cream;
-    color: colour: white;
+    background-color: colour: white;
+    color: colour: cream;
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background: colour: lightpink;
-    color:  rgb(0, 250, 156);
+    background: colour: Violet;
+    color: purple;
     padding: 2rem 1rem;
     text-align: center;
 }
@@ -41,7 +41,7 @@ h2 {
 }
 
 .project {
-    background: colour: pink;
+    background: colour: mauve;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -57,6 +57,6 @@ footer {
     text-align: center;
     padding: 1rem;
     background: #222;
-    color:  rgb(0, 250, 156);
+    color: lavender;
     margin-top: 2rem;
 }

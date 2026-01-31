@@ -16,8 +16,6 @@ body {
 /* Header */
 header {
     background: colour: Violet;
-    color: purple;
-    padding: 2rem 1rem;
     text-align: center;
 }
 
@@ -30,7 +28,7 @@ section {
 
 h2 {
     margin-bottom: 1rem;
-    color: #222;
+    color: purple;
 }
 
 /* Projects */
@@ -44,7 +42,6 @@ h2 {
     background: colour: mauve;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact */
@@ -56,7 +53,6 @@ h2 {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #222;
     color: lavender;
     margin-top: 2rem;
 }

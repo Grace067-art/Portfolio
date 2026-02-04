@@ -30,3 +30,56 @@
             <div class="project">
                 <h3>Project One</h3>
              
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: lavender;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    p{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    /* Grid container */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* Individual project card */
+    .project {
+      background-color: pinkpurple;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: left;
+      padding: 2rem 1rem;
+    }
+
+    /* Smooth hover animation */
+    .project:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    /* Optional: project title and description */
+    .project h3 {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+      color: purple;
+    }
+
+    .project p {
+      color: lilac;
+      font-size: 0.9rem;
+    }
+  </style>

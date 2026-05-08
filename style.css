@@ -16,25 +16,25 @@ body {
   background: #1a1a1;
   color: #fff;
   text-align: center;
-  padding: 2rem;
+  padding: 2;
 }
 
 .header nav {
-  margin-top: 1rem;
+  margin-top: 1;
 }
 
 .header nav a {
   color: #fff;
-  margin: 0 10px;
+  margin: 0 10;
   text-decoration: none;
   font-weight: bold;
 }
 
 /* Sections */
 .section {
-  max-width: 1000px;
+  max-width: 1000;
   margin: auto;
-  padding: 3rem 1.5rem;
+  padding: 3 1.5;
 }
 
 /* About */
@@ -44,45 +44,3 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Projects */
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-}
-
-.project-card {
-  background: #fff;
-  padding: 1.5rem;
-  border-radius: 8px;
-}
-
-.project-card a {
-  display: inline-block;
-  margin-top: 0.5rem;
-  color: #007bff;
-  text-decoration: none;
-}
-
-/* Skills */
-.skills-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.skills-list li {
-  background: #222;
-  color: #fff;
-  padding: 8px 12px;
-  border-radius: 5px;
-}
-
-/* Footer */
-.footer {
-  background: #111;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
-}
